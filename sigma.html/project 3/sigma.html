@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+       .container{
+        width: 100vw;
+        height: 100vh;
+   
+        overflow: auto;
+    background-color: #8EC5FC; 
+ background-image: linear-gradient(62deg, #f7fbfd88 0%, #eeeaf239 100%); 
+
+          display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .card{
+        height: 500px;
+        width: 330px;
+        background-color: azure;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+        align-items: center;
+        gap: 20px;
+        
+       }
+       .card img{
+        width: 100%;
+        border-radius: 10px;
+        height: 150px;
+        
+       }
+       .card  div1{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+       gap: 7px;
+       text-align: center;
+       }
+       #amount{
+        width:80% ;
+        height: 10%;
+        background-color: #9bb6d1;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        padding: 20px;
+       }
+       #leftbox{
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+    padding-top: 2px;
+       }
+       #leftbox #box1 img{
+        height: 40px;
+        width: 40px;
+       }
+       #rightbox{
+         font-weight: 400px;
+       }
+       #payment{
+        width:80% ;
+        height: 10%;
+        background-color:rgb(22, 22, 97);
+        border-radius: 10px;
+        color: white;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+       }
+       #order a{
+        text-decoration: none;
+        color: rgb(11, 10, 10);
+        font-weight: bold;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+         <img src="gadet.jpg" alt="">
+         <div1 class="textbox">
+           <h1>welcome to shop</h1>
+            <p>Lorem m ipsu. Ex corruptiipsum dolorEx corruptiipsum consectetur adipisicing elit. Ex corrupti cupiditate dolorum amet quibusdam!</p>
+         </div1>
+         <div id="amount">
+          <div id="leftbox">
+           <div id="box1">
+           <!-- aw0YVVRaB05TddnZYfINOecL&ust=1697805634514000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCMiK14SRgoIDFQAAAAAdAAAAABAD" alt=""> -->
+           <img src="icon.png" alt="">
+        </div>
+           <div id="box2">
+            <p>  Amount</p>
+            <p>$220/year</p>
+           </div>
+          </div>
+
+          <div id="rightbox">
+            <a href="ss">change</a>
+          </div>
+         </div>
+         <button id="payment">
+            Proceed to pay
+         </button>
+         <div id="order">
+           <a href="cance">cancel order</a>
+         </div>
+           
+        </div>
+    </div>
+</body>
+</html>

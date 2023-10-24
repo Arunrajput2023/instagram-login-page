@@ -1,0 +1,118 @@
+
+
+
+#navlist{
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px, 7px;
+}
+*margin{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    overflow: auto;
+    background-color: #8EC5FC; 
+ background-image: linear-gradient(62deg, #f7fbfd88 0%, #eeeaf239 100%); 
+ /* background-color: #8EC5FC; */
+ /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+ background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #f5ebf5 24%, #ffffff 49%, #ffffff 75%, #ffffff 100%);
+
+}
+.navcontainer{
+    width: 98vw;
+    /* display: flex;
+    flex-direction: row; */
+    height: 60px;
+    background-color: #4158D0;
+/* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+border: #0093E9 solid 1px;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px 0; */
+
+}
+
+#logo{
+    font-size: 30px;
+    font-weight : 400;
+    letter-spacing: 1px;
+     margin:auto;
+    padding: 2px; 
+    color: azure;
+   align-self: center;
+  
+}
+a{
+    color: azure;
+}
+#item{
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    color: azure;
+    
+    /* margin: auto; */
+}
+ /* .footerBox{
+    /* background-color: #0093E9; */
+    /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    
+ /* width: 100%; */
+ /* text-align: center; */
+ /* height: 30px;  */
+
+ /* .footerBox section p{ */
+   /* color: #ffffff; */
+   /* color : orange; */
+   /* font-size: 1rem; */
+   /* border : 2px solid red; */
+   /* text-align : center; */
+ */
+.footerBox section p{
+    color : rgb(36, 35, 35);
+    text-align : center;
+}
+p{
+    color: black ;
+}
+
+.contentbox{
+    width: 100%;
+    margin: auto;
+    border: 2px solid black;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+   width: 50%;
+    
+
+    
+}
+.rightbox img{
+    height: 300px;
+    width: 300px;
+    border: 20px;
+    gap: 100px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.section{
+    display: flex;
+}
+   
+  

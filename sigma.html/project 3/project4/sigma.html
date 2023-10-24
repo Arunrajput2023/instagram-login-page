@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .container{
+            background-color: rgb(15, 237, 163);
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+     gap: 20px;
+        }
+        .card{
+            background-color:whitesmoke;
+            width: 350px;
+            height: 500px;
+            border: 2px white solid;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             gap: 20px;
+            padding: 1px;
+            overflow: auto;
+            
+        }
+      .card img{
+        width: 100%;
+        height: 32%;
+        border-radius: 10px;
+      }
+      .card  div1{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+       gap: 7px;
+       text-align: center;
+       }
+  div h1{
+    font-weight: 800;
+  }
+  div1 p{
+    font-weight: 200;
+  }
+  .payments{
+    width: 70%;
+    height: 50px;
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(132, 163, 163);
+   border-radius: 10px;
+  justify-content:space-around;
+  gap: 10px;
+
+align-items: center;
+padding-top: 10px;
+padding-bottom: 10px;
+    
+
+  } 
+ 
+  .acceptpay{
+    width: 70%;
+    height: 50px;
+   display: flex;
+   flex-direction: column;
+   background-color:blue;
+   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  align-items: center;
+   
+
+  } 
+  .cancel{
+    font-weight: 600;
+    font-size: large;
+  } 
+  .payments img{
+    width: 80%;
+    height: 60%;
+
+
+  } 
+  .payments a{
+    font-size: large;
+  }
+  .leftbox{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+   <div class="card">
+    <img src="gadet.jpg" alt="">
+    <div1 class="heading">
+        <h1>Welcome to shop</h1>
+        <p>Lorem ipsum dolor sit amet  ipsum dolor sit amet consectetur adipisicing. aliquid itaque tempore commodi incidunt numquam?</p>
+  </div1>
+    <div class="payments">
+    <div class="leftbox">
+        <div class="box1">
+            <img src="icon.png" alt="">
+        </div>
+        <div class="box2">
+            <p>Amount</p>
+            <p>$1000</p>
+        </div>
+    </div>
+
+    <div class="rightbox">
+        <a href="">change</a>
+    </div>
+    </div>
+    <div class="acceptpay">
+     Proceed to pay
+    </div>
+    <div class="cancel">
+        cancel order
+    </div>
+   </div>
+    </div>
+</body>
+</html>
